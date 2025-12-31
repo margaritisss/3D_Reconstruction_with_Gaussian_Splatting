@@ -4,7 +4,7 @@ This project implements a pipeline for monocular depth estimation and 3D reconst
 
 ## ⚠️ Prerequisite: Installation
 
-**Before running this project, you must install the Depth Anything 3 library.**
+**Before running this project, you must install the Depth Anything 3.**
 
 Please follow the official installation instructions provided in the ByteDance repository:
 **[https://github.com/ByteDance-Seed/Depth-Anything-3](https://github.com/ByteDance-Seed/Depth-Anything-3)**

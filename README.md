@@ -2,14 +2,18 @@
 
 This project implements a pipeline for monocular depth estimation and 3D reconstruction using the **Depth Anything 3 (DA3)** model. It processes images or video frames to generate high-quality depth maps, confidence maps, and 3D assets (GLB and Gaussian Splatting PLY).
 
-## ⚠️ Prerequisite: Installation
+## Installation
 
-**Before running this project, you must install the Depth Anything 3.**
+### 1. Install Depth Anything 3
+This project is built upon the **Depth Anything 3** library. You must install it from the source before running the pipeline:
 
-Please follow the official installation instructions provided in the ByteDance repository:
-**[https://github.com/ByteDance-Seed/Depth-Anything-3](https://github.com/ByteDance-Seed/Depth-Anything-3)**
+[https://github.com/ByteDance-Seed/Depth-Anything-3](https://github.com/ByteDance-Seed/Depth-Anything-3)
 
-Ensure you have a working environment with `torch` and CUDA support enabled.
+### 2. Install Python Dependencies
+Ensure you have a Python environment with `torch` and CUDA support enabled. Install the remaining dependencies using the provided requirements file:
+
+```bash
+pip install -r requirements.txt
 
 ## Project Structure
 

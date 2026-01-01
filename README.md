@@ -1,5 +1,5 @@
 # 3D_Reconstruction_with_Gaussian_Splatting_using Depth Anything 3
-
+![Project Demo](assets/mouse_gs.png)
 This project implements a pipeline for monocular depth estimation and 3D reconstruction using the **Depth Anything 3 (DA3)** model. It processes images or video frames to generate high-quality depth maps, confidence maps, and 3D assets (GLB and Gaussian Splatting PLY).
 
 ## Installation

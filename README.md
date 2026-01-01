@@ -13,8 +13,11 @@ Ensure you have a working environment with `torch` and CUDA support enabled.
 
 ## Project Structure
 
-* **`main.ipynb`**: The main Jupyter Notebook that orchestrates the entire pipeline, from loading data to exporting 3D models.
-* **`da3_utils.py`**: A utility module containing helper functions for file management, directory setup, and visualization of results.
+* **`main.ipynb`**: The primary orchestration notebook. It defines the end-to-end execution pipeline, managing configuration, model initialization, data loading, inference execution, and the final export of 3D reconstruction assets.
+
+* **`functions.py`**: The core logic module encapsulating heavy-lifting operations. It contains routines for model loading (DepthAnything3), data ingestion (image scanning and video frame extraction), 3D point cloud post-processing (statistical outlier removal via scipy), and wrapper functions for executing inference and exporting GLB/Gaussian Splatting files.
+
+* **`helper_functions.py`**: A utility suite focused on I/O and visualization. It handles file system management (directory setup) and provides rendering tools for 2D depth/confidence maps (using matplotlib) and interactive 3D point cloud visualization (using Open3D).
 
 ## Implementation Details
 

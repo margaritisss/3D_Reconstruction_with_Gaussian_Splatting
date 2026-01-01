@@ -14,6 +14,7 @@ Ensure you have a Python environment with `torch` and CUDA support enabled. Inst
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Project Structure
 

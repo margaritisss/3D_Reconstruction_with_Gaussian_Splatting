@@ -64,16 +64,6 @@ The final step exports the processed data into standard 3D formats for use in ot
 * **Filtering**: Utilizes a confidence threshold (default: 40th percentile) to filter out low-confidence points.
 * **Point Limit**: Caps the output at 10 million points to ensure manageability.
 
-## Dependencies
-
-In addition to the `depth_anything_3` library, this project requires:
-
-* `numpy`
-* `matplotlib`
-* `opencv-python` (`cv2`)
-* `open3d`
-* `torch`
-* `scipy`
 
 ## Usage
 
